@@ -1,0 +1,485 @@
+     
+        
+       
+       
+    
+    
+    header{
+    height:80vh;
+    width: 100%;
+    background: url(img1.jpeg) no-repeat center center/cover; 
+     font-family: sans-serif;
+     backdrop-filter:brightness(30%);
+    
+    
+
+     
+    
+    
+     
+
+
+}
+
+nav{
+
+    width: 100%;
+    height: 100px;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+    backdrop-filter:brightness(30%);
+    
+    
+    
+
+}
+.logo4{
+    height: 100px;
+    padding-top: 0%;
+}
+
+.logo{
+    font-size: 2em;
+        color: indianred;
+        float: left;
+}
+
+.menu a { 
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    
+}
+    
+.menu a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+
+.menu a:hover:before {
+    width: 100%;
+
+}
+    
+.register  {
+    /* text-decoration: none; */
+    /* color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 8px; */
+
+    text-decoration: none;
+    background: indianred;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    
+    
+
+}
+.register :hover{
+    background: transparent;
+    border: 1px solid indianred;
+
+}
+.h-text{
+    max-width: 650px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+
+}
+.h-text span{
+    letter-spacing: 5px;
+
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text .position-test{
+    text-decoration: none;
+    background: indianred;
+    padding: 10px;
+    color: white;
+    letter-spacing: 5px;
+    
+    
+}
+.footer{
+    background-color:indianred;
+    height: 5px;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: px;
+    color: white;
+    padding: 2%;
+    padding-bottom: 2%;    
+    
+    
+
+}
+.htext{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.7;
+    color: white;
+    background-color: indianred;
+
+}
+.h-text :hover{
+    /* box-shadow: 2px 2px 10px gray; */
+
+}
+
+
+ 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.destination{
+    height: 100%;
+    width: 100%;
+    /* background: url(img1.jpeg) no-repeat center center/cover;  */
+     font-family: sans-serif;
+     background-color: grey;
+     
+     backdrop-filter:brightness(10%);
+    
+    
+}
+
+.main{
+    justify-content: center;
+  
+}
+
+
+.cards{
+    display: inline-block;    
+    width: 25%;
+    background-color: indianred;
+    border-radius: 2%;
+    height:40%;
+    margin: 40px;
+    box-shadow: 2px 2px 10px gray;
+    object-fit: cover;
+    
+    
+
+    
+    
+}
+.cards :hover{
+    box-shadow: 2px 2px 10px gray;
+    
+}
+
+.image img{
+
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+justify-content: center;
+    
+    
+}
+.title{
+    text-align: center;
+    color: rgb(3, 2, 2);
+    padding: 5px;
+    font-size:1.5em ;
+}
+.des{
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+button{
+    margin: 20px;
+    height: 30px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+}
+
+.header{
+    height:100vh;
+    width: 100%;
+    background: url(img1.jpeg) no-repeat center center/cover; 
+     font-family: sans-serif;
+     backdrop-filter:brightness(20%);
+    
+
+}
+.Heading{
+    background-color: indianred;
+    text-align: center;
+    height: 50px;
+    font-size: 2em;
+    color:palegoldenrod;
+    backdrop-filter:brightness(30%);
+
+}
+
+.hero_container{
+    max-width: 650px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:black;
+    font-size: 1.3em;
+    background-color: white;
+    box-shadow: 2px;
+    
+
+}
+.cta-button{
+    background-color: white;
+    color: black;
+    
+    border-radius: 40%;
+    margin: 20px;
+    cursor: pointer;
+    height: 30px;
+
+
+}
+
+.contact{
+    font-family:'outfit';
+    height:100vh;
+    width: 100%;
+    background: url(img1.jpeg) no-repeat center center/cover;
+    backdrop-filter:brightness(60%);
+    
+
+}
+
+.Form{
+
+     
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    flex-direction: column;    
+    gap: 20px; 
+    height: 300px;
+    width: 400px; 
+     
+
+    
+    
+}
+.head{
+    text-align: left;
+    font-weight: 600;
+    color: indianred;
+    margin-bottom: 5px;
+    font-size:2em;
+
+    
+}
+.head hr{
+    
+    width: 120px;
+    height: 5px;
+    background-color: indianred;
+    border-color: indianred;
+}
+.contact-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5%;
+    box-shadow: 2%;
+    box-shadow: gray;
+    border-color: black;
+
+    
+}
+textarea{
+    width: 300px;
+    height: 120px;
+    border-radius: 5%;
+    box-shadow: 2%;
+    box-shadow: gray;
+    border-color: black;
+
+}
+
+button{
+    border-radius: 2%;
+    height:40px;
+    width: 90px;
+    border-color: black;
+    background-color:indianred;
+    cursor: pointer;
+    color: white;
+    font-weight: 2em;
+}
+button :hover ::before{
+    transition: 0.4s;
+    
+}
+.pbody{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darksalmon;
+}
+
+.phead {
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: indianred; */
+    font-size: 3em;
+    color:indianred;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px; /* Space between images */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 0 0 auto; /* Prevent figures from shrinking */
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack nav items vertically */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .menu a {
+        font-size: 18px; /* Slightly smaller font */
+        padding: 8px 16px; /* Adjust padding */
+        margin: 5px;
+    }
+
+    .logo {
+        font-size: 1.5em; /* Smaller logo */
+        margin: 5px;
+    }
+    .register {
+        margin: 5px;
+    }
+    .cards{
+        width: 90%;
+        margin: 20px;
+
+        }
+        .h-text h1{
+            font-size: 2.5em;
+        }
+        .hero-container{
+            width: 90%;
+            padding: 10px;
+        }
+        .Form {
+            width: 90%; /* Full width on smaller screens */
+            height: auto; /* Adjust height */
+        }
+    
+        .contact-input, textarea {
+            width: 100%; /* Full width for inputs */
+            /* height: 40px; Consistent height */
+        }
+        .footer {
+            font-size: 16px;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width:576px ) {
+        nav {
+            flex-direction: column; /* Stack nav items vertically */
+            height: auto; /* Allow height to adjust */
+        }
+    
+        .menu a {
+            font-size: 15px; /* Slightly smaller font */
+            padding: 8px 16px; /* Adjust padding */
+            margin: 5px;
+        }
+    
+        .logo {
+          
+            font-size: 1.5em; /* Smaller logo */
+            margin: 5px;
+        }
+        .register {
+            margin: 5px;
+        }
+        .cards{
+            width: 90%;
+            margin: 20px;
+    
+            }
+            .htext h2{
+                font-size: 40px;
+            }
+             .htext p{
+                font-size: 20px;
+             }
+            .h-text {
+                font-size: 1em;
+                margin-top: 35px;
+
+            }
+            .hero_container{
+                width: 90%;
+                padding: 10px;
+            }
+            .Form {
+                width: 90%; /* Full width on smaller screens */
+                height: auto; /* Adjust height */
+            }
+        
+            .contact-input, textarea {
+                width: 100%; /* Full width for inputs */
+                /* height: 40px; Consistent height */
+            }
+            .footer {
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+
+
+
+
